@@ -64,7 +64,7 @@ const AcademicsHero = () => {
             
 
             {/* Main Heading */}
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-gray-900 leading-tight">
+            <h1 className="text-2xl md:text-5xl lg:text-6xl font-light text-gray-900 leading-tight">
               Academics at{' '}
               <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-yellow-600">
                 Brookside
@@ -80,12 +80,12 @@ const AcademicsHero = () => {
 
             {/* Description */}
             <div className="space-y-4 text-gray-700">
-              <p className="text-lg leading-relaxed">
+              <p className="text-sm md:text-lg leading-relaxed">
                 At Brookside International School, our academic programme is designed to challenge, 
                 inspire, and prepare learners for global success. We deliver a rigorous British 
                 international education while nurturing character, confidence, and independent thinking.
               </p>
-              <p className="text-lg leading-relaxed">
+              <p className="text-l leading-relaxed">
                 Our approach balances strong academic foundations with creativity, inquiry, and 
                 real-world relevance, ensuring learners don't just memorise content, but understand, 
                 apply, and excel.
@@ -94,12 +94,12 @@ const AcademicsHero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <button className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-gradient-to-r from-red-600 to-red-700 text-white rounded-lg hover:from-red-700 hover:to-red-800 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+              <button className="group inline-flex text-sm items-center justify-center gap-2 px-6 py-3.5 bg-gradient-to-r from-red-600 to-red-700 text-white rounded-lg hover:from-red-700 hover:to-red-800 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
                 <span className="text-lg font-medium">Download Our Curriculum</span>
                 <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
               
-              <button className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-white text-gray-800 border border-gray-300 rounded-lg hover:bg-gray-50 hover:border-gray-400 transition-all duration-300 shadow-sm hover:shadow">
+              <button className="group inline-flex items-center text-sm justify-center gap-2 px-6 py-3.5 bg-white text-gray-800 border border-gray-300 rounded-lg hover:bg-gray-50 hover:border-gray-400 transition-all duration-300 shadow-sm hover:shadow">
                 <PlayCircle className="w-5 h-5 text-red-600" />
                 <span className="text-lg font-medium">Watch Our Story</span>
               </button>

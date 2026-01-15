@@ -68,7 +68,7 @@ const CampusesSection = () => {
           <h2 className="text-2xl md:text-4xl font-light text-gray-700 mb-4">
             Vibrant <span style={{ color: colors.red }}>Learning</span> Environments
           </h2>
-          <p className="text-lg text-gray-600">
+          <p className="text-sm md:text-lg text-gray-600">
             Each Brookside campus offers a unique environment with shared commitment to excellence, 
             values, and Cambridge global education.
           </p>
@@ -112,7 +112,7 @@ const CampusesSection = () => {
                 <div className="mb-6">
                   <div className="flex items-start justify-between mb-3">
                     <div>
-                      <h3 className="text-2xl font-bold text-gray-900 mb-2">
+                      <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
                         {campus.name}
                       </h3>
                       <div className="flex items-center gap-2 text-gray-600">

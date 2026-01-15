@@ -2,6 +2,9 @@ import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, BookOpen, Users, Globe, Target, Heart, Sparkles } from 'lucide-react';
 
 const AboutHero = () => {
+  useEffect(() =>{
+    window.scrollTo(0, 0);
+  }, []);
   const [currentSlide, setCurrentSlide] = useState(0);
 
   // Brand colors
@@ -63,7 +66,7 @@ We believe education should not only prepare learners for exams, but for life. T
                   {content.subtitle}
                 </span>
               </div>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
                 {content.title}
               </h2>
             </div>
@@ -72,7 +75,7 @@ We believe education should not only prepare learners for exams, but for life. T
             <div className="space-y-6">
               {/* Description */}
               <div className="space-y-4">
-                <p className="text-lg text-gray-600">
+                <p className="text-sm md:text-lg text-gray-600">
                   {content.shortDescription}
                 </p>
                 
@@ -184,7 +187,7 @@ We believe education should not only prepare learners for exams, but for life. T
             <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
               Join Our <span style={{ color: colors.red }}>Global Learning</span> Community
             </h3>
-            <p className="text-lg text-gray-600 mb-8">
+            <p className="text-sm md:text-lg text-gray-600 mb-8">
               Discover how Brookside International School can help your child thrive academically, 
               socially, and morally in today's globalised world.
             </p>

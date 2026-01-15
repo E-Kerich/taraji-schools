@@ -264,27 +264,8 @@ useEffect(() => {
               </div>
 
               {/* Additional mobile-only links */}
-              <Link
-                to="/portal"
-                className="flex items-center px-4 py-3 rounded-lg text-gray-800 hover:bg-gray-100 transition-colors"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Parent Portal
-              </Link>
-              <Link
-                to="/careers"
-                className="flex items-center px-4 py-3 rounded-lg text-gray-800 hover:bg-gray-100 transition-colors"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Careers
-              </Link>
-              <Link
-                to="/donate"
-                className="flex items-center px-4 py-3 rounded-lg text-[#e92327] hover:bg-red-50 transition-colors font-medium"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Donate
-              </Link>
+              
+            
 
               {/* Enquire Button */}
               <Link

@@ -78,7 +78,7 @@ const AboutSection = () => {
               About Our School
             </span>
           </div>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
             Brookside International School
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -92,16 +92,11 @@ const AboutSection = () => {
             {/* Mission Statement */}
             <div className="space-y-6">
               <div className="flex items-center gap-3">
-                <div 
-                  className="rounded-lg"
-                 
-                >
-                 
-                </div>
+                
                 <h3 className="text-2xl font-bold text-gray-900">{mission.title}</h3>
               </div>
               
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <p className="text-sm md:text-lg text-gray-700 leading-relaxed">
                 {mission.description}
               </p>
               
@@ -118,11 +113,7 @@ const AboutSection = () => {
             {/* Our Vision */}
             <div className="space-y-6">
               <div className="flex items-center gap-3">
-                <div 
-                  className="p-2 rounded-lg"
-                >
-                  
-                </div>
+                
                 <h3 className="text-2xl font-bold text-gray-900">{vision.title}</h3>
               </div>
               
@@ -130,7 +121,7 @@ const AboutSection = () => {
                 backgroundColor: `${colors.yellow}05`,
                 borderLeftColor: colors.yellow 
               }}>
-                <p className="text-xl text-gray-800 italic leading-relaxed">
+                <p className="text-lg text-gray-800 italic leading-relaxed">
                   "{vision.statement}"
                 </p>
               </div>
@@ -147,7 +138,7 @@ const AboutSection = () => {
             <div className="space-y-6">
               <div className="flex items-center gap-3">
                 <div 
-                  className="p-2 rounded-lg"
+                  className="rounded-lg"
           
                 >
         
@@ -174,7 +165,7 @@ const AboutSection = () => {
                       </div>
                       <div>
                         <h4 className="text-lg font-semibold text-gray-900 mb-2">{value.title}</h4>
-                        <p className="text-gray-600">{value.description}</p>
+                        <p className="text-gray-600 text-sm">{value.description}</p>
                       </div>
                     </div>
                   </div>

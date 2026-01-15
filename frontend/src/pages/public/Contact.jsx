@@ -1,8 +1,13 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import api from '../../services/api';
 import { MapPin, Phone, Mail, Clock, Send, CheckCircle, AlertCircle } from 'lucide-react';
 
 const ContactPage = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',

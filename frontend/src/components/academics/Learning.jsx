@@ -60,7 +60,7 @@ const KeyLearningAreas = () => {
               <h3 className="text-2xl md:text-3xl font-bold mb-4">
                 We Develop Balanced Learners
               </h3>
-              <p className="text-lg text-gray-300 max-w-3xl mx-auto">
+              <p className="text-sm md:text-lg text-gray-300 max-w-3xl mx-auto">
                 Our curriculum integrates core and complementary subjects to develop capable, confident, 
                 and well-rounded individuals prepared for success in all aspects of life.
               </p>

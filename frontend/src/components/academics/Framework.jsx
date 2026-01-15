@@ -81,7 +81,7 @@ const CurriculumFramework = () => {
             <span className="text-sm font-medium text-red-700">Curriculum Framework</span>
           </div>
           
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-gray-900 mb-6">
+          <h2 className="text-2xl md:text-3xl lg:text-5xl font-light text-gray-900 mb-6">
             Our Curriculum Framework
           </h2>
           

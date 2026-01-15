@@ -118,10 +118,10 @@ const BlogPage = () => {
               Insights & Updates
             </span>
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h1 className="text-2xl md:text-5xl font-bold text-gray-900 mb-4">
             Latest from <span className="text-red-600">Brookside</span>
           </h1>
-          <p className="text-lg text-gray-600">
+          <p className="text-l text-gray-600">
             Discover stories, news, and insights from our school community
           </p>
         </div>
@@ -260,7 +260,7 @@ const BlogPage = () => {
                         </div>
                       </div>
 
-                      <h2 className="text-xl md:text-3xl font-bold text-gray-900 mb-4">
+                      <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-4">
                         {featuredBlog.title}
                       </h2>
 
@@ -347,7 +347,7 @@ const BlogPage = () => {
                           </div>
                         </div>
 
-                        <h2 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2 flex-shrink-0">
+                        <h2 className="text-lg font-bold text-gray-900 mb-3 line-clamp-2 flex-shrink-0">
                           {blog.title}
                         </h2>
 
@@ -390,7 +390,7 @@ const BlogPage = () => {
           </>
         )}
     </div>
-    
+
         
         
       
