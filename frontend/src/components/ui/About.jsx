@@ -14,7 +14,7 @@ const AboutSection = () => {
     title: "Our Commitment to Excellence",
     description: "Brookside International School is a centre of excellence offering a globally recognised international curriculum grounded in strong values and holistic development. We are committed to nurturing confident, curious, and capable learners who are prepared to thrive in an ever-changing world.",
     features: [
-      "Globally recognised British curriculum",
+      "Globally recognised Cambridge curriculum",
       "Values-based education system",
       "Holistic development approach",
       "Future-ready learning environment"
@@ -38,7 +38,7 @@ const AboutSection = () => {
     {
       icon: <BookOpen className="w-6 h-6" />,
       title: "Academic Excellence",
-      description: "Rigorous British curriculum with high standards"
+      description: "Rigorous Cambridge curriculum with high standards"
     },
     {
       icon: <Heart className="w-6 h-6" />,
@@ -82,7 +82,7 @@ const AboutSection = () => {
             Brookside International School
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            A centre of excellence for holistic British international education
+            A centre of excellence for holistic Cambridge Curriculum education
           </p>
         </div>
 

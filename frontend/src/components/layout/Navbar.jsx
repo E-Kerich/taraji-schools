@@ -202,7 +202,7 @@ useEffect(() => {
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="w-4 h-4" />
-                  <span>info@brookside.co.ke</span>
+                  <span>info@brooksideschools.com</span>
                 </div>
               </div>
             </div>

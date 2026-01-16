@@ -9,7 +9,7 @@ const campusUpdateSchema = new mongoose.Schema(
     },
     type: {
       type: String,
-      enum: ['news', 'curriculum', 'notice'],
+      enum: ['news', 'curriculum', 'announcement', 'notice'],
       required: true
     },
     title: {

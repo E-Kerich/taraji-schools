@@ -117,20 +117,20 @@ const Footer = () => {
             <div>
               <p className="text-sm font-medium text-white mb-1">Email</p>
               <a 
-                href="mailto:info@brookside.ac.ke" 
+                href="mailto:info@brooksideschools.com" 
                 className="text-sm hover:text-[#fff200] transition-colors"
               >
-                info@brookside.ac.ke
+                info@brooksideschools.com
               </a>
             </div>
             
             <div>
               <p className="text-sm font-medium text-white mb-1">Phone</p>
               <a 
-                href="tel:+254XXXXXXXXX" 
+                href="tel:+254719786001" 
                 className="text-sm hover:text-[#fff200] transition-colors"
               >
-                +254 XXX XXX XXX
+                +254 719 786 001
               </a>
             </div>
             

@@ -1,21 +1,28 @@
 const express = require('express');
+const router = express.Router();
+
 const {
   createCampusUpdate,
-  getCampusUpdates,
+  getAdminCampusUpdates,
+  getPublicCampusUpdates,
   updateCampusUpdate,
   deleteCampusUpdate
 } = require('../controllers/campusUpdate.controller');
 
-const { protect } = require('../middleware/auth.middleware');
+const { protect, admin } = require('../middleware/auth.middleware');
 
-const router = express.Router();
+// ============================
+// ADMIN ROUTES
+// ============================
+router.get('/', getAdminCampusUpdates);
+router.post('/', createCampusUpdate);
+router.put('/:id', updateCampusUpdate);
+router.delete('/:id', deleteCampusUpdate);
 
-// Public
-router.get('/', getCampusUpdates);
 
-// Admin
-router.post('/', protect, createCampusUpdate);
-router.put('/:id', protect, updateCampusUpdate);
-router.delete('/:id', protect, deleteCampusUpdate);
+// ============================
+// PUBLIC ROUTES
+// ============================
+router.get('/public', getPublicCampusUpdates);
 
 module.exports = router;

@@ -22,8 +22,8 @@ const HeroSection = () => {
     // Cloudinary video URL - replace with your actual video URL
     backgroundVideo: "https://res.cloudinary.com/djgbv2hy7/video/upload/v1768381526/WhatsApp_Video_2026-01-14_at_12.04.27_PM_r6uoby.mp4",
     title: "Inspiring Greatness, Shaping Global Citizens",
-    subtitle: "British International Education",
-    description: "A premier British international school nurturing confident learners through academic excellence, character development, and holistic growth.",
+    subtitle: "Cambridge Curriculum",
+    description: "A premier Cambridge Curriculum school nurturing confident learners through academic excellence, character development, and holistic growth.",
     ctaPrimary: "View Our Campus",
     ctaSecondary: "Inquire Now"
   };
